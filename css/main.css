@@ -3872,3 +3872,10 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+.hide {
+    display: none;
+}
+.show:hover + .hide {
+    display: block;
+}
