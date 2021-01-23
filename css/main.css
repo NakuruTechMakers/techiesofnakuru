@@ -3892,13 +3892,16 @@ footer .row {
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
     color: white;
-    cursor: pointer;
-    padding: 6px;
     width: 50%;
     outline: none;
-    text-align: center;
     font-size: 15px;
     border: .2rem solid #c5c5c5;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   
   .active, .collapsible:hover {
@@ -3913,5 +3916,6 @@ footer .row {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #45108A;
+    color: white;
   }
