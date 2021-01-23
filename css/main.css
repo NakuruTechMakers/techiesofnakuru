@@ -3902,7 +3902,10 @@ footer .row {
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #b8b8b8;
+    border-color: #b8b8b8;
+    color: #000000;
+    outline: 0;
   }
   
   .content {
