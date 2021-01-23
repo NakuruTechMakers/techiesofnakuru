@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/naxtechm/public_html/
+    - /bin/cp /css/main.css
+    - /bin/cp /js/main.js
     - /bin/cp -R * $DEPLOYPATH
