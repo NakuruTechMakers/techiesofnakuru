@@ -3885,12 +3885,12 @@ footer .row {
     background-color: #777;
     color: white;
     cursor: pointer;
-    padding: 18px;
+    padding: 6px;
     width: 50%;
-    border: none;
     outline: none;
     text-align: center;
     font-size: 15px;
+    border: .2rem solid #c5c5c5;
   }
   
   .active, .collapsible:hover {
