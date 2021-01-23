@@ -3882,7 +3882,15 @@ footer .row {
  /* Collapsible Buttons CSS */
 
  .collapsible {
-    background-color: #777;
+    background-color: #A56EF4;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    height: 5.4rem;
+    line-height: calc(5.4rem - .4rem);
+    padding: 0 3rem;
+    margin: 0 .3rem 1.2rem 0;
     color: white;
     cursor: pointer;
     padding: 6px;
