@@ -3881,6 +3881,10 @@ footer .row {
 
  /* Collapsible Buttons CSS */
 
+ .collapsibles {
+     display: flex;
+ }
+
  .collapsible {
     background-color: #777;
     color: white;
