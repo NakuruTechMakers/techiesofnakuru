@@ -3878,9 +3878,9 @@ footer .row {
  * ## about
  * ------------------------------------------------------------------- */
 
-.hide {
+/* .hide {
     display: none;
 }
 .show:hover + .hide {
     display: block;
-}
+} */
