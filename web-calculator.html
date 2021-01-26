@@ -103,7 +103,8 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Hire us for your next project or just say hello</h1>
+                <h1 class="display-2 display-2--light">Use the website design pricing calculator to instantly estimate the price for having a website created. </h1>
+                 <h6 class="h6 display-2--light"> Results are displayed at the end of the form.</h6>
             </div>
         </div>
 
@@ -111,23 +112,53 @@
             
             <div class="contact-primary">
 
-                <h3 class="h6">Send Us A Message</h3>
+              <div class="form-field">
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <h6 class="display-2--light">What Best Describes You?</h6>
+
+                <input type="radio" name="SURVEY" value="Client" onClick="Answer(this.value)"> I need to hire a web designer.
+              </div>
+
+              <div class="form-field">
+                <input type="radio" name="SURVEY" value="Designer" onClick="Answer(this.value)" > I am a website designer.
+              </div>
+
+              <div class="form-field">
+                <input type="radio" name="SURVEY" value="Research" onClick="Answer(this.value)" > I am a student or just doing research.
+              </div>
+
+                <form name="form1" id="form1" method="post" action="" novalidate="novalidate">
                     <fieldset>
-    
+
+                    <h6 class="display-2--light">Basic Website Needs</h6>
+
                     <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                      <input type=hidden name="mult1" value="1" onChange="doCalc()" >
+                      <input type=hidden name="val1" value="15">
                     </div>
+
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                      <input type="radio" name="Basic_Website_Needs" value="1" class="inp" onClick="doCalc()" title="I need a brand new website I can edit myself. 15 Hours" > I need a brand new website I can edit myself.
                     </div>
+
                     <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                      <input type=hidden name="mult2" value="1" onChange="doCalc()" >
+                      <input type=hidden name="val2" value="12">
                     </div>
+
                     <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                      <input type="radio" name="Basic_Website_Needs" value="2" class="inp" onClick="doCalc()" title="I need a total revamp of my current website. 12 Hours" > I need a total revamp of my current website.
                     </div>
+
+                    <div class="form-field">
+                      <input type=hidden name="mult3" value="1" onChange="doCalc()" >
+                      <input type=hidden name="val3" value="8">
+                    </div>
+
+                    <div class="form-field">
+                      <input type="radio" name="Basic_Website_Needs" value="3" class="inp" onClick="doCalc()" title="My website needs minor changes and updates. 8 Hours" > My website needs minor changes and updates.
+                    </div>
+
                     <div class="form-field">
                         <button class="full-width btn--primary">Submit</button>
                         <div class="submit-loader">
