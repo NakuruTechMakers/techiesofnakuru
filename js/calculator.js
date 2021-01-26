@@ -59,7 +59,8 @@ hrs = 0
 frm = document.form1;
 divheight = 0
 document.getElementById('quote_des').value = '';
-document.getElementById('quote_des').style.background = '#ffffcc';
+document.getElementById('quote_des').style.background = '#45108A';
+document.getElementById('quote_des').style.color = '#fff';
 for ( var i=0;i<document.form1.elements.length;i++ ){
 if(frm.elements[i].type=='checkbox' || frm.elements[i].type=='radio'){
 if(frm.elements[i].checked){
