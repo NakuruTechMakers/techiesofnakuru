@@ -3327,6 +3327,10 @@ html.no-csstransitions .home-content__main {
     margin-top: -1.5rem;
 }
 
+.contact-primary #form1 {
+    margin-top: -1.5rem;
+}
+
 .contact-secondary {
     width: 35%;
 }
@@ -3524,6 +3528,11 @@ html.no-csstransitions .home-content__main {
     }
 
     .contact-primary #contactForm {
+        margin-top: -1.5rem;
+        margin-bottom: 7.2rem;
+    }
+    
+    .contact-primary #form1{
         margin-top: -1.5rem;
         margin-bottom: 7.2rem;
     }
