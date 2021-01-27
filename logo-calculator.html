@@ -351,7 +351,7 @@
                     </div>
 
 
-                    <div class="form-field">
+                    <!-- <div class="form-field">
                         <input type="submit" name="send" class="full-width btn--primary" value="Save Estimate">
                         <div class="submit-loader">
                             <div class="text-loader">Saving...</div>
@@ -361,7 +361,7 @@
                                 <div class="bounce3"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
     
                     </fieldset>
                 </form>
@@ -384,23 +384,35 @@
                     <h3 class="h6 hide-on-fullwidth">Price Estimate</h3>
 
                     <div class="cinfo">
-                        <h5>Estimate</h5>
-                        <div id="bpM" style="display:inline;" title="website cost">
-                            Ksh ?
-                        </div>
-                        <P id="pricerange" style="display:none;font-size:12px;"><em> 
-                          A student may charge only
-                          <span id="bpB" style="font-weight:800;" title="student web designer"></span>. A professional
-                          firm as much as <span id="bpP" style="font-weight:800;" title="professional web design company"></span>. 
-                          To get real proposals, <span onClick="ShowForm(4)" style="cursor:pointer;">complete the form below</span>.
-                          </em>
-                          </p>
+                       
                     </div>
 
                     <div class="cinfo">
                       <textarea id="quote_des" name="quote_builder" class="full-width" >
                         Post your website project for free proposals.</textarea>
                     </div>
+
+                    <table cellspacing=0 cellpadding=3 border=1 bordercolor="#c9c9c9" id="tbl1" width=420>
+                        <tr style="background:#45108A">
+                        <TD>Design Firm</TD>
+                        <TD>Freelance Designer</TD>
+                        <TD>Student or Offshore</TD>
+                        </tr>
+                        <tr>
+                        <td valign=top align=center>
+                        <div id="bpP">$0 - $0</div> <br>
+                        <div id="BP"></div>
+                        </td>
+                        <td valign=top align=center>
+                        <div id="bpM">$0 - $0</div> <br>
+                        <div id="BM"></div>
+                        </td>
+                        <td valign=top align=center>
+                        <div id="bpB">$0 - $0</div> <br>
+                        <div id="BB"></div> 
+                        </td>
+                        </tr>
+                        </table>
 
                     <div class="cinfo">
                         <h5>Call Us At</h5>
